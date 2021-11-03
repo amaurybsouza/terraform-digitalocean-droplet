@@ -1,3 +1,4 @@
+# Configure the DigitalOcean provider
 terraform {
   required_providers {
     digitalocean = {
@@ -7,7 +8,7 @@ terraform {
   }
 }
 
-# variables used to connect the token
+# Variables used to connect the token
 variable "do_token" {}
 
 # Configure the DigitalOcean Provider
